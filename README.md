@@ -2,6 +2,8 @@
 
 > **中文翻译版**：本仓库是 [HulkInTherapy/meta-ads-research](https://github.com/HulkInTherapy/meta-ads-research/tree/5176dcd7ddb812e7fb96823fb20e10ef60b20082)（commit `5176dcd`）的简体中文翻译，内容忠实原文，仅做语言转换。原仓库未附带 LICENSE，转载/使用前请先确认原作者的授权要求。
 
+> **新增：商业智能体技能库（中文翻译版）**：`business-agent-skills/` 是 [J-Naish/business-agent-skills](https://github.com/J-Naish/business-agent-skills/tree/0f32e36f546a20ca57e1f1ba568d713707c7be72)（commit `0f32e36`）`skills/` 目录的简体中文翻译，共 16 个 agent skill，覆盖 Meta / Google / TikTok / X / Amazon 广告规划、GTM 追踪搭建、视觉设计、内容写作、图像与视频生成、关键词/地图/YouTube/X 调研等。Markdown 文档已汉化为简体中文（SKILL.md 的 `name` 保持英文、`description` 已翻译），脚本（`scripts/`）、配置（`agents/`）、资源（`assets/`）与示例 JSON 保持原样未改动。原仓库同样未附带 LICENSE，转载/使用前请先确认原作者的授权要求。
+
 关于 Meta（Facebook/Instagram）广告的全面开源研究——基于 342+ 次网络搜索、80+ 次深度挖掘，以及来自 Reddit、Twitter/X、Quora、YouTube、Meta 社区论坛、行业博客和专家分析的 1,000+ 条来源引用构建。研究日期：2026 年 5 月。
 
 **已归类 308 个痛点。映射 79 个工作流步骤。23 个类别。21 个工作流文档。全部完成评分、排序与交叉引用。**
@@ -13,6 +15,23 @@
 ```
 .
 ├── README.md
+├── business-agent-skills/      # 16 个商业智能体 skill（中文翻译版）
+│   ├── meta-ads-planning/       # Meta 广告规划
+│   ├── google-ads-planning/     # Google Ads 规划
+│   ├── tiktok-ads-planning/     # TikTok 广告规划
+│   ├── x-ads-planning/          # X 广告规划
+│   ├── amazon-planning/         # Amazon 电商与广告规划
+│   ├── gtm-tracking-setup/      # GTM 追踪搭建（含可导入容器 JSON 示例）
+│   ├── visual-design/           # 视觉设计（含 35 个品牌设计案例）
+│   ├── content-writing/         # 内容写作
+│   ├── image-generation/        # 图像生成
+│   ├── video-generation/        # 视频生成
+│   ├── media-understanding/     # 多媒体理解
+│   ├── google-keyword-research/ # Google 关键词研究
+│   ├── google-maps-research/    # Google 地图本地市场研究
+│   ├── youtube-research/        # YouTube 研究
+│   ├── x-research/              # X 研究
+│   └── gws/                     # Google Workspace 自动化
 ├── pain-points/              # 23 个类别下的 308 个痛点
 │   ├── MASTER-PAIN-POINTS.md
 │   ├── PAIN-POINTS-RANKED.md
